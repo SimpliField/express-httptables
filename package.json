@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "coveralls": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- test/*.js -R spec -",
+    "coveralls": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- test/*.js -R spec -t 5000 && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "cover": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report html -- test/*.js -R spec -t 5000"
   },
   "repository": {

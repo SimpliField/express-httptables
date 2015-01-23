@@ -65,7 +65,6 @@ describe('Express/HTTPTables', function() {
     app = null;
   });
 
-
   it('should let through non matching request by default', function (done) {
     app.use(setRulesOnProperty('rules', [allRules[0]]));
     app.use(httptablesMiddle());
