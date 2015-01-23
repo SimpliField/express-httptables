@@ -1,0 +1,19 @@
+{
+  "name": "express-httptables",
+  "version": "0.0.1",
+  "description": "Httptables usecase for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SimpliField/express-httptables.git"
+  },
+  "author": "SimpliField <georges.plancke@simplifield.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimpliField/express-httptables/issues"
+  },
+  "homepage": "https://github.com/SimpliField/express-httptables"
+}
