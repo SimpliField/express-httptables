@@ -13,4 +13,4 @@ Fork at will or claim ownership !
 
 ##### Description
 
-Just a use possible use case of HTTPTables in an express app.
+Just a possible use case of HTTPTables in an express app.
