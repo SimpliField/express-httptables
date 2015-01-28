@@ -20,7 +20,7 @@
   "homepage": "https://github.com/SimpliField/express-httptables",
   "dependencies": {
     "debug": "^2.1.1",
-    "httptables": "git://github.com/SimpliField/httptables"
+    "httptables": "0.0.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
